@@ -6,3 +6,6 @@ Wikipedia serves as an online resource that is defined as a free library and kep
 Within this Project, a Beets plugin was developed that edits tag information for music catalogs and corrects missing or incomplete tag information. The developed plugin uses Wikipedia as a metadata source and obtains metadata with HTML parsing by retrieving this content after accessing the URL created in the plugin with the title and album title of the musical material in order to use the desired tag information on platform. The resulting metadata is processed into the Beets database once user approval is obtained and processed through Beets on the existing material. 
  
 wikiPlug is being run on the Python path, and besides the musicBrainz metadata search that Beets has, it provides the user with the Wikipedia metadata as auto-tagger. 
+
+## License
+Copyright (C) 2017 Göktürk GÖK & Nurefşan Sarıkaya. It is distributed under the GNU General Public License version 3 - see the accompanying LICENSE file for more details.
